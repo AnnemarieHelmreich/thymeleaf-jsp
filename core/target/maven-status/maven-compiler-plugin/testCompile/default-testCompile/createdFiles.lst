@@ -1,0 +1,15 @@
+com\cap\springmvc\general\common\TestUtil.class
+com\cap\springmvc\general\common\api\security\SecurityRestServiceImplTest$StrTup.class
+com\cap\springmvc\general\common\AbstractSpringBatchIntegrationTest.class
+com\cap\springmvc\general\common\api\security\SecurityRestServiceImplTest.class
+com\cap\springmvc\general\common\PermissionCheckTest.class
+com\cap\springmvc\general\common\base\OaspPackageCheckTest.class
+com\cap\springmvc\general\service\impl\config\TestWebSecurityConfig.class
+com\cap\springmvc\general\common\SecurityTestHelper.class
+com\cap\springmvc\general\dataaccess\impl\config\BeansJpaConfig.class
+com\cap\springmvc\general\common\RestTestClientBuilder.class
+com\cap\springmvc\general\common\base\AbstractRestServiceTest.class
+com\cap\springmvc\general\service\impl\config\RestaurantTestConfig.class
+com\cap\springmvc\general\common\DbTestHelper.class
+com\cap\springmvc\general\common\PermissionCheckTest$1.class
+com\cap\springmvc\general\common\AccessControlSchemaXmlValidationTest.class

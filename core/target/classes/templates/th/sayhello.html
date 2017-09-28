@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>th:Messenger</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  <h2>Send a Thymeleaf message</h2>
+   <form action="#" th:action="@{/thymeleaf/message}" th:object="${greeting}" method="post">
+      <p>To: <input type="text" th:field="*{person}" placeholder="Thymeleaf"/></p>
+        <p>What do you want to say: <input type="text" th:field="*{content}" placeholder="Enter your message here" /></p>
+        <p><input type="submit" value="Send to thymeleaf" /> <input type="reset" value="Reset" /></p>
+    </form>
+  <br/><br/><br/><br/>
+  <h2>Poke JSP</h2>
+    <a href="http://localhost:8081/springmvc/jspmessage"><input type="button" value="Poke" /></a>
+     <br/><br/><br/><br/>
+  <h2>Poke Plain text</h2>
+    <a href="http://localhost:8081/springmvc/plain"><input type="button" value="Poke" /></a>
+</body>
+</html>

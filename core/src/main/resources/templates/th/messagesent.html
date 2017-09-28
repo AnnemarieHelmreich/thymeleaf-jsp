@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>th:Sent</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  <h1>You have sent following message:</h1>
+    <p th:text="'Dear ' + ${greeting.person} + ','" />
+    <p th:text="${greeting.content}" />
+    <a href="/springmvc/thymeleaf/start">Send another message</a>
+</body>
+</html>
